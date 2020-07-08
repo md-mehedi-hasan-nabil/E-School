@@ -1,0 +1,75 @@
+header {
+    background-color: rgb(240, 255, 240);
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li:first-child {
+    font-weight: bold;
+}
+
+#Books .block:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+}
+
+#Books .block {
+    background-color: rgb(248, 255, 251);
+}
+
+#size {
+    width: 20%;
+}
+
+header h5 {
+    color: rgb(33, 181, 115);
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+header h1 span {
+    color: rgb(33, 181, 115);
+}
+
+.mybtn,
+.mybtn:hover {
+    background-color: rgb(33, 181, 115);
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px 30px;
+}
+
+.mylink {
+    width: 100px;
+    height: auto;
+    background-color: rgb(33, 181, 115);
+    border-radius: 30px;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    border: none;
+}
+
+.block-info {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.heading-title {
+    text-align: center;
+    padding-bottom: 6%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
